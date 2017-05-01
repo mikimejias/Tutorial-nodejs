@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.end('Works!');
 } );
 */
-
+//probando
 app.use(express.static('public'));
 
 app.listen(3000, () =>{
